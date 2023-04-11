@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    // 这一项配置好像不需要也行, 有 "module": "NodeNext" 就行了?
+    // "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "strict": true,
+    "outDir": "./build",
+    "declaration": true
+  },
+  "include": ["**/*.ts"],
+  // "exclude": ["node_modules", "bin"]
+}
