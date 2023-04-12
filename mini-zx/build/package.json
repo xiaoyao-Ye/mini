@@ -1,0 +1,23 @@
+{
+    "name": "zx",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "./bin/index.js",
+    "types": "./bin/index.d.ts",
+    "bin": {
+        "zx": "./bin/index.js"
+    },
+    "files": [
+        "bin"
+    ],
+    "scripts": {
+        "build": "tsc -p tsconfig.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.15.11"
+    }
+}

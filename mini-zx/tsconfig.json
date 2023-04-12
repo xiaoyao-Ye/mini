@@ -7,8 +7,10 @@
     "module": "NodeNext",
     "strict": true,
     "outDir": "./build",
+    "resolveJsonModule": true,
     "declaration": true
   },
+  "files": ["./package.json"],
   "include": ["**/*.ts"],
   // "exclude": ["node_modules", "bin"]
 }
