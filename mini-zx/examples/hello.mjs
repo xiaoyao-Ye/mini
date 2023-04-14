@@ -1,4 +1,4 @@
-#!/usr/bin/env cx
+#!/usr/bin/env zx
 import { $ } from "zx";
 
 $`cat package.json`
