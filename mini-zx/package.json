@@ -12,12 +12,14 @@
     "bin"
   ],
   "scripts": {
+    "test": "vitest run",
     "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.15.11"
+    "@types/node": "^18.15.11",
+    "vitest": "^0.30.1"
   }
 }

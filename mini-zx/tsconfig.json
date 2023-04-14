@@ -11,6 +11,5 @@
     "declaration": true
   },
   "files": ["./package.json"],
-  "include": ["**/*.ts"],
-  // "exclude": ["node_modules", "bin"]
+  "include": ["./bin/*"],
 }
