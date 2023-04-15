@@ -4,10 +4,10 @@ import { spawn } from "node:child_process";
 function $(pieces: TemplateStringsArray) {
   return new Promise((resolve, reject) => {
     const cmd = pieces[0];
-    console.log(cmd);
 
     let child = spawn(cmd, {
       cwd: process.cwd(),
+      // TODO: 作为一个库应该兼容 win 和 linux , mac 需要处理兼容性问题
       // win 需要指定 powershell, true 默认是 cmd
       shell: "powershell.exe",
       stdio: ["pipe", "pipe", "pipe"],

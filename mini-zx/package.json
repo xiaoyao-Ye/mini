@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./bin/index.js",
-  "types": "./bin/index.d.ts",
+  "main": "./bin/cli.js",
+  "types": "./bin/cli.d.ts",
   "bin": {
-    "zx": "./bin/index.js"
+    "zx": "./bin/cli.js"
   },
   "files": [
     "bin"
